@@ -2,7 +2,7 @@
 var database;
 var form,player,game;
 var playerCount,gameState=0;
-
+var allPlayers;
 
 
 function setup(){
