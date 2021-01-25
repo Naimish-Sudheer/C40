@@ -30,7 +30,7 @@ class Form{
             this.button.hide()
             player.name = this.input.value();
             playerCount++
-            player.index=playerCount+1
+            player.index=playerCount
             player.update()
             player.updateCount( playerCount)
             this.greeting.html("Welcome! "+player.name);
